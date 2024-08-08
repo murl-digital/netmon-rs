@@ -5,6 +5,8 @@ edition = "2021"
 
 [dependencies]
 cfspeedtest = "1.2.5"
-itertools = "0.13.0"
+chrono = "0.4.38"
+color-eyre = "0.6.3"
 ping-rs = "0.1.2"
 reqwest = { version = "0.12.5", features = ["rustls-tls"] }
+rusqlite = { version = "0.32.1", features = ["chrono"] }
