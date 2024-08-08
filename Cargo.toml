@@ -1,0 +1,10 @@
+[package]
+name = "netmon"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cfspeedtest = "1.2.5"
+itertools = "0.13.0"
+ping-rs = "0.1.2"
+reqwest = { version = "0.12.5", features = ["rustls-tls"] }
